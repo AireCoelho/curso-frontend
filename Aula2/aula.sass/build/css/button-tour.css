@@ -1,0 +1,20 @@
+.button-tur {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 47%;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  width: 120px;
+  height: 40px;
+  line-height: 1.5;
+  padding: 10px; }
+  .button-tur:hover {
+    background-color: #fff;
+    color: #000; }

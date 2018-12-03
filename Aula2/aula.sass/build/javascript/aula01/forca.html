@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .teclado{
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            width: 650px;
+            align-content: flex-start;
+            margin: 10px auto;
+        }
+        .tecla{
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #ccc
+        }
+        .tecla.ativa{
+            background-color: #000;
+            color: #fff;
+        }
+        .painel-palavra{
+            display: flex;
+            flex-wrap: wrap;
+            height: 50px;
+            align-content: flex-start;
+            margin: 10px auto;
+        }
+        .letra{
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #ccc
+        }
+        #letreiro{
+
+        }
+        .main{
+            display: flex;
+        }
+        #forca,
+        .lateral{
+            
+        }
+        </style>
+    
+</head>
+<body>
+    <div class="main">
+    <div id="forca"></div>
+    <div id="painel-palavra"></div>
+    <div id="teclado"></div>
+    </div>
+       <script src="forca.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@import 'variaveis.scss';
+@import 'mixins.scss';
+
+.button-tur{
+    @include botao-redondo(5px);
+    position: absolute;
+    top: 47%;
+    right: 20px;
+    background-color: $fundo5;
+    color: $corInversa;
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 1.5;
+    padding: 10px;
+
+    &:hover{
+        background-color: $fundo1;
+        color: $corDefault;
+    }
+}

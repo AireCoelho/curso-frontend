@@ -1,0 +1,33 @@
+.post{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+    font-family: sans-serif;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.post__title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.post__author{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.post__date{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.post__intro{
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+}
+

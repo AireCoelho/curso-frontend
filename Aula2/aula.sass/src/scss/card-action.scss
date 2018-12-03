@@ -1,0 +1,82 @@
+@import 'variaveis.scss';
+@import 'mixins.scss';
+
+.card-action{
+    width: 33%;
+    background-color: $fundo5;
+    opacity: 0.6;
+    position: absolute;
+    color: $corInversa;
+    left: 20px;
+    top: 38%;
+    padding: 12px 24px;
+    border-radius: 8px;
+  
+
+    h3{
+        font-size: $fontSize3;
+        margin: 20px;
+        text-align: center;
+    }
+
+    hr{
+        border: 0;
+        border-top: 1px solid $fundo1;
+        height: 0px;
+        overflow: hidden;
+        opacity: 0.6;
+        display: block
+    }
+
+    p{
+        font-size: $fontDefault;
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    &__button-action{
+        @include botao-redondo(5px);
+        color: $corInversa;
+        background-color: $fundo6;
+        display: inline-block;
+        width: 100%;
+       
+    }
+
+    &:hover{
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 796px){
+        top:0;
+        left: 0;
+        width: 100%;
+        overflow: visible;
+        background-color: $fundo6;
+        padding: 0;
+        position: absolute;
+        color: $corInversa;
+        font-size: $fontDefault;
+        opacity: 1;
+        display: block;
+        border-radius: 0px;
+
+        h3{
+            display: none;
+        }
+
+        hr{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+    
+        
+    
+    }
+    
+    
+
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<form action="salvar" method="post"></form>
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <input type="hidden" name="codigo"><br>
+    <label>Nome Completo</label><br>
+    <input type="text"><br>
+    <label>Email</label><br>
+    <input type="email"><br>
+    <label>Telefone</label><br>
+    <input type="tel"><br>
+    <label>Idade</label><br>
+    <input type="number"><br>
+    <label>Senha</label><br>
+    <input type="password" required><br>
+    </fieldset>
+
+<Fieldset>
+    <legend>Beneficios</legend>
+    <label><input type="checkbox"> Unimed</label><br>
+    <label><input type="checkbox"> Uniodonto</label><br>
+</Fieldset>
+
+<Fieldset>
+    <legend>Alimentação</legend>
+    <label><input type="radio" name="alimentacao">Cartão Refeição</label>
+    <label><input type="radio" name="alimentacao">Cartão Alimentação</label>
+</Fieldset>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<form action="salvar" method="post"></form>
+
+<fieldset>
+    <legend>Cidades</legend>
+    <select>
+        <optgroup label="Santa Catarina">
+            <option value="Blumenau" label="Blumenau"></option>
+            <option value="Florianópolis" label="Florianópolis"></option>
+            <option value="Criciúma" label="Criciúma"></option>
+            <option value="Lages" label="Lages"></option>
+        </optgroup>
+
+        <optgroup>
+            <optgroup label="Rio Grande do Sul">
+                <option value="Porto Alegre" label="Porto Alegre"></option>
+                <option value="Canoas" label="Canoas"></option>
+                <option value="Guaíba" label="Guaíba"></option>
+                <option value="Santana do Livramento" label="Santana do Livramento"></option>
+        </optgroup>
+    </select>
+</fieldset>
+
+<fieldset>
+<legend>Observações</legend>
+<textarea cols="30" rows="10"></textarea><br>
+</fieldset>
+
+<button type="button" onclick="alert('Bem Vindo')">Click</button>
+<button type="submit">Enviar</button>
+</body>
+</html>

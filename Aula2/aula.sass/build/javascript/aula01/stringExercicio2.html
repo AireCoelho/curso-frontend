@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+         
+    let palavra = window.prompt('Digite qualquer palavra')
+    let palavraInvertida = '';
+    
+    for (let index = palavra.length; index >= 0; index--) {
+        palavraInvertida = palavraInvertida + palavra.charAt(index);
+        
+    }
+    if(palavraInvertida == palavra){
+        document.write('A palavra ' +palavra+ ' é um palíndromo');
+    }
+    else{
+        document.write('A palavra ' +palavra+ ' não é um palíndromo');
+    }
+
+  
+    
+    </script>
+   
+</body>
+</html>

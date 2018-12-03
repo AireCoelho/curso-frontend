@@ -1,0 +1,18 @@
+{
+  "name": "aula.sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build-css": "node-sass -o ./build/css ./src/scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.26.0",
+    "node-sass": "^4.9.3"
+  }
+}

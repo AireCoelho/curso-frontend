@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @import url('app.css');
+   .pai{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width:300px;
+     height:500px;
+     border:1px solid red;
+   }
+   .container{
+     width:300px;
+     height:200px;
+     border: 1px solid red;
+   }
+   .filha{
+     width:150px;
+     height:100%;
+     float:left;
+     border:2px solid green;
+     padding:10px;
+     box-sizing: border-box;
+   }
+  </style>
+</head>
+<body>
+<div style="border:1px solid blue; width:100%;height:40px;">
+    <p style="color:red;margin: 5px auto;text-align: center">
+      Meu parágrafo
+    </p>
+</div>
+<div class="pai">
+  <p>filho</p>
+</div>
+
+<div class="semaforo">
+  <div class="circulo vermelho"></div>
+  <div class="circulo amarelo"></div>
+  <div class="circulo verde"></div>
+</div>
+
+<div class="container">
+  <div class="filha" style="background-color: orange"></div>
+  <div class="filha" style="background-color: fuchsia"></div>
+</div>
+ 
+
+</body>
+
+</html>

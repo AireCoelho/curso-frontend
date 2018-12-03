@@ -1,0 +1,8 @@
+@mixin botao-redondo($raio){
+    border: none;
+    border-radius: $raio;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}

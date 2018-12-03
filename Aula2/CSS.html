@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+
+    *{
+      color:fuchsia;
+    }
+    .circulo{
+      width: 100px;
+      height: 100px;
+      padding:20px;
+      overflow: hidden;
+      transition: all 1s ease-in .3s;
+    }
+    .circulo img{
+      width: 100%;
+    }
+
+    .circulo:hover{
+      width:1000px;
+      height: 1000px;
+    }
+
+    #meuid{
+      color:red;
+    }
+
+    .primeiro::first-line{
+      background-color: orange;
+      color:#fff;
+    }
+
+    p[meuatributo]{
+      font-size: 30px;
+    }
+    p[meuatributo="teste"]{
+      font-size: 60px;
+      color:green;
+    }
+    p[meuatributo~="val10"]{
+      font-size: 60px;
+      color:blue;
+    }
+    p[meuatributo|="col"]{
+      font-size: 40px;
+      color:blue;
+      background-color: aqua;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circulo">
+    <img src="http://www.ferrovelhocoelho.com.br/top.png" alt="">
+  </div>
+
+<p id="meuid">Teste</p>
+<p>Teste</p>
+
+<p class="primeiro">
+  linha 01<br/>
+  linha 02<br/>
+  linha 03
+</p>
+
+<p meuatributo >Item 01</p>
+<p meuAtributo="teste">Item 02</p>
+<p meuAtributo="teste val10 outros">Item 03</p>
+<p meuAtributo="col-10">Item 04</p>
+  
+</body>
+</html>

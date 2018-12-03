@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1204px;
+    margin: 0 auto;
+    align-content: center;
+  
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+div[class|="col"]{
+   
+    min-height: 100px;
+    text-align: center;
+
+}
+
+.col-1{
+    width: 100px;
+}
+
+.col-1 img{
+    width: 200%;
+    height: 100%;
+}
+
+.col-2{
+    width: 200px;
+}
+
+.col-3{
+    width: 300px;
+}
+
+.col-4{
+    width: 400px;
+}
+
+.col-5{
+    width: 500px;
+}
+
+.col-6{
+    width: 600px;
+}
+
+.col-7{
+    width: 700px;
+}
+
+.col-8{
+    width: 800px;
+}
+
+.col-9{
+    width: 900px;
+}
+
+.col-10{
+    width: 1000px;
+}
+
+.col-11{
+    width: 1100px;
+}
+
+.col-12{
+    width: 100%;
+}
+

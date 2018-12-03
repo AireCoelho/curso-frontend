@@ -1,0 +1,10 @@
+.header-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height:200px;
+    width:90%;
+    color: #fff;
+    background-color: #1ABC9C;
+  }

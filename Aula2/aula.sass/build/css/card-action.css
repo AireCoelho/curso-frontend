@@ -1,0 +1,58 @@
+.card-action {
+  width: 33%;
+  background-color: #000;
+  opacity: 0.6;
+  position: absolute;
+  color: #fff;
+  left: 20px;
+  top: 38%;
+  padding: 12px 24px;
+  border-radius: 8px; }
+  .card-action h3 {
+    font-size: 24px;
+    margin: 20px;
+    text-align: center; }
+  .card-action hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0.6;
+    display: block; }
+  .card-action p {
+    font-size: 16px;
+    margin: 20px 0px;
+    text-align: center; }
+  .card-action__button-action {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4cAf50;
+    display: inline-block;
+    width: 100%; }
+  .card-action:hover {
+    opacity: 1; }
+  @media screen and (max-width: 796px) {
+    .card-action {
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: visible;
+      background-color: #4cAf50;
+      padding: 0;
+      position: absolute;
+      color: #fff;
+      font-size: 16px;
+      opacity: 1;
+      display: block;
+      border-radius: 0px; }
+      .card-action h3 {
+        display: none; }
+      .card-action hr {
+        display: none; }
+      .card-action p {
+        display: none; } }
